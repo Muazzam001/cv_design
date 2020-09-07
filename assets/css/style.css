@@ -1,0 +1,319 @@
+body{
+	margin: 0px;
+	background-color: #fff;
+}
+
+.wrapper{
+	width: 960px;
+	display: block;
+	margin: 0px auto;
+	position: relative;
+}
+
+#header{
+	width: 100%;
+	height: 200px;
+	margin: 0px;
+	position: relative;
+}
+
+.head-block{
+	width: 100%;
+	margin: 25px 0px;
+	vertical-align: middle;
+}
+
+.logo-block{
+	width: 30%;
+	display: inline-block;
+}
+
+.logo{
+	width: 100%;
+	vertical-align: middle;
+}
+
+.contact-block{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin-top: 15px;
+}
+
+.contact-block > img{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.contact-block > p{
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px 7px;
+	font-size: 100%;
+}
+
+.nav-block{
+	background-color: #2C2C34;
+	margin: 0px;
+	text-align: right;
+}
+
+.nav-item{
+	display: inline-block;
+	list-style: none;
+	overflow: hidden;
+}
+
+.nav-item li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 0px 0px 40px;
+	font-size: 100%;
+}
+
+.nav-item li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-item li a:hover{
+	
+}
+
+.banner{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner-desc{
+	text-align: center;
+	position:relative;
+	top: -300px;
+	margin:0px auto; 
+}
+
+
+.banner-desc > p{
+	margin:0px; 
+	font-size: 35px;
+	color: #fff;
+}
+
+#container{
+	width: 100%;
+	margin: 0px;
+	position: relative;
+}
+
+.main-content{
+	background-color: #fff;
+	margin-top:275px; 
+}
+
+.career-block{
+	width: 100%;
+	margin:0px auto;
+	position: relative;
+	overflow: hidden;
+	vertical-align: middle;
+	display: block;
+}
+
+.career-desc > p{ 
+	margin: 15px 0px;
+	text-align:center;
+	font-size: 25px;
+}
+
+.career-level-item{
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px 0px 0px 8px; 
+}
+
+.career-item{
+	width:23%;
+	margin: 5px 0px 0px 10px; 
+	padding: 0px; 
+	vertical-align: top;
+	position: relative;
+	display: inline-block;
+}
+
+.career-item-head{
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+	border-radius: 5px;
+}
+
+.career-item-head>p{
+	margin: 0px 10px; 
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.career-item-desc{
+	width: 100%;
+	margin: 0px auto; 
+	padding: 0px;
+}
+
+.career-item-desc>p{
+	margin: 0px;
+	padding: 10px 0px;
+}
+
+.video-block{
+	width: 100%;
+	position: relative;
+	margin-top: 50px;
+}
+
+.video-content{
+    width: 100%;
+    margin: 0 auto; 
+	text-align:center;
+}
+
+.content-head{
+	width: 90%;
+	margin: 0px auto;
+	padding: 0px;
+	font-size: 25px;
+}
+
+.content-desc{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.content-desc > p{
+	margin: 20px 0px 0px 15px;
+}
+
+.testimonials{
+	width: 100%;
+	height: 350px;
+	margin: 0px auto;
+	background: url('../images/cv-testimonial.jpg') no-repeat 0px 0px /cover;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.testiments{
+	width: 50%;
+	color: #fff;
+	margin: 0px auto;
+	padding: 50px;
+}
+
+.testom-head > p{
+	width: 100%;
+	margin: 0px auto;
+	padding: 10px;
+	font-size: 25px;
+}
+
+.testom-desc>p{
+	width: 100%;
+	margin: 0px auto;
+	padding: 15px 10px;
+}
+
+#delimeter{
+	clear: both;
+}
+
+#footer{
+	width: 100%;
+	height: 70px;
+	margin: 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+.process-block{
+	width: 100%;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+
+.process-desc{
+	width: 100%;
+	text-align:center;	
+	font-size: 25px;
+	color: #000;
+}
+
+.process-item-block{
+	width: 100%;
+	margin: 10px auto;
+	display: inline-block;
+}
+
+.process-item{
+	width: 20%;
+	margin: 0px auto;
+	display: inline-block;	
+	vertical-align: top;
+}
+
+.process-item p{
+	margin: 0px 10px;
+	padding: 5px 0px;
+}
+
+.process-item .number{
+	width: 25px;
+	height: 25px;
+	background-color: #0D77DD;
+	border-radius: 50%;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	padding:10px 7px 5px; 
+	margin-left: 10px;
+}
+
+.process-item .heading{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.contact-detail-block{
+	display: inline-block;
+	overflow: hidden;
+}
+
+.contact-detail-block > p{
+	margin:8px 0px 0px;
+	padding: 0px;
+}
+
+.address > p {
+	display: inline-block;
+	margin: 0px 8px 0px 0px;
+}
+
+.foot-block{
+	border-top: 1px #F0F0F0 solid;
+}
+
+.social-block{
+	margin: 0px;
+	display: inline-block;
+	float: right;
+	overflow: hidden;
+}
+
+.social-block img{
+	width: 30px;
+	height: 30px;
+}
